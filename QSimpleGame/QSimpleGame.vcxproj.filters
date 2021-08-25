@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="头文件\Base">
+      <UniqueIdentifier>{3f2666e3-440c-4d59-8cc2-836c2f0cc24e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Event">
+      <UniqueIdentifier>{db1719b2-905f-4f46-86f2-5215d21ada03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\GameObject">
+      <UniqueIdentifier>{be91f854-5395-4417-a6d0-f0615fa64c5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{f0cd47d4-4b2c-4ebb-a87d-a27ae5df1128}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Base">
+      <UniqueIdentifier>{c0f460be-e62d-4a12-b609-0be7f261b98b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Event">
+      <UniqueIdentifier>{0775fdd1-b3b6-4098-a4ed-6e239e7d2831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\GameObject">
+      <UniqueIdentifier>{bf0b59c2-5282-4908-b37e-39b9e0db1411}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\StringIdManager.cpp">
+      <Filter>源文件\Base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Event.cpp">
+      <Filter>源文件\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventManager.cpp">
+      <Filter>源文件\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventQueue.cpp">
+      <Filter>源文件\Event</Filter>
+    </ClCompile>
+    <ClCompile Include="src\EventA.cpp">
+      <Filter>Test</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GameObject.cpp">
+      <Filter>源文件\GameObject</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\Singleton.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\StringIdManager.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Event.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventManager.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventQueue.h">
+      <Filter>头文件\Event</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GameObject.h">
+      <Filter>头文件\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="src\PoolAllocator.h">
+      <Filter>头文件\Base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\EventA.h">
+      <Filter>Test</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
